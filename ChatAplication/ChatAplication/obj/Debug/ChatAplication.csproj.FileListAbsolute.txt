@@ -1,0 +1,18 @@
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.pdb
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe
+\\vmware-host\Shared Folders\C#\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.pdb
