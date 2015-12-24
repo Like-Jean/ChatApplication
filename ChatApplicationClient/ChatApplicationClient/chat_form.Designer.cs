@@ -33,12 +33,22 @@
             this.topic_txt = new System.Windows.Forms.Label();
             this.logout_btn = new System.Windows.Forms.Button();
             this.name_txt = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.topic_list = new System.Windows.Forms.ListView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.client_recieve = new System.Windows.Forms.TextBox();
             this.tabBox = new System.Windows.Forms.TabControl();
             this.tabPage1.SuspendLayout();
             this.tabBox.SuspendLayout();
+=======
+            this.client_recieve = new System.Windows.Forms.TextBox();
+            this.tabBox = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.topic_list = new System.Windows.Forms.ListView();
+            this.tabBox.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             this.SuspendLayout();
             // 
             // client_send
@@ -48,7 +58,10 @@
             this.client_send.Name = "client_send";
             this.client_send.Size = new System.Drawing.Size(267, 38);
             this.client_send.TabIndex = 1;
+<<<<<<< HEAD
             this.client_send.TextChanged += new System.EventHandler(this.client_send_TextChanged);
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             // 
             // send_btn
             // 
@@ -87,6 +100,7 @@
             this.name_txt.Size = new System.Drawing.Size(29, 12);
             this.name_txt.TabIndex = 5;
             this.name_txt.Text = "name";
+<<<<<<< HEAD
             // 
             // topic_list
             // 
@@ -96,6 +110,28 @@
             this.topic_list.TabIndex = 8;
             this.topic_list.UseCompatibleStateImageBehavior = false;
             this.topic_list.DoubleClick += new System.EventHandler(this.topic_list_DoubleClick);
+=======
+            this.name_txt.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // client_recieve
+            // 
+            this.client_recieve.Location = new System.Drawing.Point(4, 3);
+            this.client_recieve.Multiline = true;
+            this.client_recieve.Name = "client_recieve";
+            this.client_recieve.Size = new System.Drawing.Size(255, 187);
+            this.client_recieve.TabIndex = 6;
+            this.client_recieve.TextChanged += new System.EventHandler(this.client_recieve_TextChanged);
+            // 
+            // tabBox
+            // 
+            this.tabBox.Controls.Add(this.tabPage1);
+            this.tabBox.Controls.Add(this.tabPage2);
+            this.tabBox.Location = new System.Drawing.Point(12, 46);
+            this.tabBox.Name = "tabBox";
+            this.tabBox.SelectedIndex = 0;
+            this.tabBox.Size = new System.Drawing.Size(271, 219);
+            this.tabBox.TabIndex = 7;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             // 
             // tabPage1
             // 
@@ -108,6 +144,7 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // client_recieve
             // 
             this.client_recieve.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -127,6 +164,25 @@
             this.tabBox.Size = new System.Drawing.Size(271, 219);
             this.tabBox.TabIndex = 7;
             this.tabBox.Tag = "";
+=======
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(263, 193);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // topic_list
+            // 
+            this.topic_list.Location = new System.Drawing.Point(312, 46);
+            this.topic_list.Name = "topic_list";
+            this.topic_list.Size = new System.Drawing.Size(121, 264);
+            this.topic_list.TabIndex = 8;
+            this.topic_list.UseCompatibleStateImageBehavior = false;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             // 
             // chat_form
             // 
@@ -142,9 +198,15 @@
             this.Controls.Add(this.client_send);
             this.Name = "chat_form";
             this.Text = "Form1";
+<<<<<<< HEAD
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabBox.ResumeLayout(false);
+=======
+            this.tabBox.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,10 +219,18 @@
         private System.Windows.Forms.Label topic_txt;
         private System.Windows.Forms.Button logout_btn;
         private System.Windows.Forms.Label name_txt;
+<<<<<<< HEAD
         private System.Windows.Forms.ListView topic_list;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TextBox client_recieve;
         private System.Windows.Forms.TabControl tabBox;
+=======
+        private System.Windows.Forms.TextBox client_recieve;
+        private System.Windows.Forms.TabControl tabBox;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.ListView topic_list;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     }
 }
 

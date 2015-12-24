@@ -11,6 +11,7 @@ using System.IO;
 
 namespace ChatApplicationClient
 {
+<<<<<<< HEAD
     public delegate void chat_sendMsgDel(object sender, EventArgs e,Message.Message msg);
     public delegate void showChatDel(object sender, EventArgs e);
     public partial class chat_form : Form
@@ -27,11 +28,22 @@ namespace ChatApplicationClient
                 temp(this, e, msg); //通过事件NewMail(一种特殊的委托)逐一回调客户端的方法
 
         }
+=======
+    
+    public partial class chat_form : Form
+    {
+        //private string ServerIP; //IP
+        private int port;   //端口
+        private bool isExit = false;
+        public Net.TCPClient client;
+       // public login login_form;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         
         
         public chat_form()
         {
             InitializeComponent();
+<<<<<<< HEAD
             tabPage1.Text = "Welcom";
 
             topicRoom = new List<TabPage>();
@@ -64,10 +76,47 @@ namespace ChatApplicationClient
             }
         }
       
+=======
+            this.Visible = false;
+            client = new Net.TCPClient("visitor");
+            this.topic_list.View = View.List;
+            client.setServer();
+            startConnect();
+            client.addTextEvent += new Net.addTextDel(AddTalkMessage);
+            client.getTopicEvent += new Net.getTopicDel(addTopicToList);
+            
+        }
+
+        public void startConnect()
+        {
+            client.connect();
+        }
+
+        private delegate void AddTalkMessageDelegate(object sender,EventArgs e,string message);
+        /// <summary>
+        /// 在聊天对话框（txt_Message）中追加聊天信息
+        /// </summary>
+        /// <param name="message"></param>
+        public void AddTalkMessage(object sender,EventArgs e,string message)
+        {
+            if (client_recieve.InvokeRequired)
+            {
+                AddTalkMessageDelegate d = new AddTalkMessageDelegate(AddTalkMessage);
+                client_recieve.Invoke(d, new object[] { message });
+            }
+            else
+            {
+                client_recieve.AppendText(message + Environment.NewLine);
+                client_recieve.ScrollToCaret();
+            }
+        }
+
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
+<<<<<<< HEAD
         //send msg
         private void send_btn_Click(object sender, EventArgs e)
         {
@@ -79,10 +128,15 @@ namespace ChatApplicationClient
         }
 
         private void client_recieve_TextChanged(object sender, EventArgs e)
+=======
+
+        private void label1_Click_1(object sender, EventArgs e)
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         {
 
         }
 
+<<<<<<< HEAD
         private delegate void addTopicToListDelegate(object sender, EventArgs e, string message);
 
         public void addTopicToList(object sender, EventArgs e, string message)
@@ -134,5 +188,31 @@ namespace ChatApplicationClient
         }
 
       
+=======
+        private void send_btn_Click(object sender, EventArgs e)
+        {
+            string txt=client_send.Text;
+            Net.Message msg = new Net.Message("5",txt);
+            client.sendMessage(msg);
+        }
+
+        private void client_recieve_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addTopicToList(object sender,EventArgs e,string txt)
+        {
+            
+
+          //  this.topic_list.SmallImageList = this.imageList1;
+
+            this.topic_list.BeginUpdate();
+            ListViewItem lvi = new ListViewItem();
+            lvi.Text = txt;
+            this.topic_list.Items.Add(lvi);
+            this.topic_list.EndUpdate();
+        }
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     }
 }

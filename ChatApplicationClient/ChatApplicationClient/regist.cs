@@ -20,8 +20,13 @@ namespace ChatApplicationClient
 
         private void regist_bnt_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Message.Message msg = new Message.Message("0", name_txt.Text);
             msg = new Message.Message("1", password_txt.Text);
+=======
+            Net.Message msg = new Net.Message("0", name_txt.Text);
+            msg = new Net.Message("1", password_txt.Text);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         }
 
        

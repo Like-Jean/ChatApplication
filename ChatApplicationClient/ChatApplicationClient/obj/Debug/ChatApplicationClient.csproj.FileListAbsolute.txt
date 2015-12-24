@@ -4,10 +4,15 @@ G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplication
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.regist.resources
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.csproj.GenerateResource.Cache
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.chat_form.resources
+<<<<<<< HEAD
+=======
+G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.login_form.resources
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
 G:\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.exe
 G:\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.pdb
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.exe
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.pdb
+<<<<<<< HEAD
 G:\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\Message.dll
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.login_window.resources
 G:\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.base_form.resources
@@ -27,3 +32,16 @@ G:\project\ChatApplicationClient_demo1.0\ChatApplicationClient\obj\Debug\ChatApp
 Z:\C#\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.exe.config
 Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.exe
 Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.pdb
+=======
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.exe.config
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.exe
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.pdb
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.exe
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\bin\Debug\ChatApplicationClient.pdb
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.csprojResolveAssemblyReference.cache
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.chat_form.resources
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.login_form.resources
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.Properties.Resources.resources
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.regist.resources
+Z:\C#\project\ChatApplicationClient\ChatApplicationClient\obj\Debug\ChatApplicationClient.csproj.GenerateResource.Cache
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3

@@ -32,9 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="Message">
       <HintPath>.\Message.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,12 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="base_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="base_form.Designer.cs">
       <DependentUpon>base_form.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     <Compile Include="Chat.cs" />
     <Compile Include="ClientGestTopics.cs" />
     <Compile Include="chat_form.cs">
@@ -61,7 +67,10 @@
     <Compile Include="chat_form.Designer.cs">
       <DependentUpon>chat_form.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="HideOnStartupApplicationContext.cs" />
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     <Compile Include="login_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,9 +87,12 @@
       <DependentUpon>regist.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="base_form.resx">
       <DependentUpon>base_form.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     <EmbeddedResource Include="chat_form.resx">
       <DependentUpon>chat_form.cs</DependentUpon>
     </EmbeddedResource>

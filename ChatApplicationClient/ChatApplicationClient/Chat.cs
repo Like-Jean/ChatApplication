@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Chat
 {
+<<<<<<< HEAD
     public class Chat
+=======
+    class Chat
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     {
         public interface Chatroom
         {
@@ -27,7 +31,10 @@ namespace Chat
             void listTopics();
             Chatroom joinTopic(String topic);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         public class TextChatroom :Chatroom{
 
 	String chatroomTopic ;
@@ -51,6 +58,7 @@ namespace Chat
 		System.Console.WriteLine(chatter.getUserName()+":"+mes);
 	}
 }
+<<<<<<< HEAD
         public class TextChatter : Chatter
         {
 
@@ -71,6 +79,26 @@ namespace Chat
         }
         public class TextGestTopics : TopicManager
         {
+=======
+        public class TextChatter:Chatter {
+
+	String userName;
+	public void setUserName(String name)
+	{
+		userName=name;
+	}
+	public TextChatter(String name)
+	{
+		setUserName(name);
+	}
+	public String getUserName()
+	{
+		return userName;
+	}
+
+}
+        public class TextGestTopics:TopicManager {
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
 
             String[] topicName;//use xml to manage the topic name
             static int topicNumber;
@@ -98,6 +126,28 @@ namespace Chat
                 return cr;
             }
 
+<<<<<<< HEAD
         }
+=======
+}
+     
+
+        /*static void main(String[] args) { 
+		  Chatter bob = new TextChatter ("Bob"); 
+		  Chatter joe = new TextChatter ("Joe"); 
+		  TopicManager gt = new TextGestTopics();   
+		  gt.createTopic("java"); 
+		  gt.createTopic("UML"); 
+		  gt.listTopics(); 
+		  gt.createTopic("jeux"); 
+		  gt.listTopics(); 
+		  Chatroom cr = gt.joinTopic("jeux"); 
+		  cr.join(bob); 
+		  cr.post("Je suis seul ou quoi ?",bob); 
+		  cr.join(joe); 
+		  cr.post("Tiens, salut Joe !",bob); 
+		  cr.post("Toi aussi tu chat sur les forums de jeuxpendant les TP, Bob?",joe); 
+		 } */
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     }
 }

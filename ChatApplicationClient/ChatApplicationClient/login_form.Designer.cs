@@ -1,6 +1,10 @@
 ﻿namespace ChatApplicationClient
 {
+<<<<<<< HEAD
     partial class login_window
+=======
+    partial class login_form
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
     {
         /// <summary>
         /// Required designer variable.
@@ -89,7 +93,11 @@
             this.login_btn.UseVisualStyleBackColor = true;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
+<<<<<<< HEAD
             // login_window
+=======
+            // login
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,7 +108,11 @@
             this.Controls.Add(this.name_txt);
             this.Controls.Add(this.password_label);
             this.Controls.Add(this.name_label);
+<<<<<<< HEAD
             this.Name = "login_window";
+=======
+            this.Name = "login";
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
             this.Text = "login";
             this.ResumeLayout(false);
             this.PerformLayout();

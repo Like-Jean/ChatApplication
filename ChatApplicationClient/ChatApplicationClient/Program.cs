@@ -16,10 +16,14 @@ namespace ChatApplicationClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             HideOnStartupApplicationContext context = new HideOnStartupApplicationContext(new base_form());
             Application.Run(context);
             //chat_form charWin = new chat_form();
             //charWin.ShowDialog();
+=======
+            Application.Run(new login_form());
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
         }
     }
 }
