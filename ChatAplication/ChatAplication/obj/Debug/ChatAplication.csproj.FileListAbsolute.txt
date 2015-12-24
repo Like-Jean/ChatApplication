@@ -1,0 +1,23 @@
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.pdb
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
+G:\project\ChatAplication\ChatAplication\bin\Debug\Message.dll
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe.config
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.exe
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.pdb
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.pdb
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\Message.dll
+Z:\C#\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe.config
+Z:\C#\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.exe
+Z:\C#\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.pdb
