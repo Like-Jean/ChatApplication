@@ -1,0 +1,50 @@
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\bin\Debug\ChatAplication.pdb
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+G:\project\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
+G:\project\ChatAplication\ChatAplication\bin\Debug\Message.dll
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe.config
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.exe
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.pdb
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+G:\project\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.pdb
+G:\project\ChatAplication - 副本\ChatAplication\bin\Debug\Message.dll
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe.config
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.exe
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.pdb
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.pdb
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\Message.dll
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\System.Data.SQLite.DLL
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\System.Data.SQLite.xml
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe.config
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.exe
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.pdb
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.exe
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\ChatAplication.pdb
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\Message.dll
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\System.Data.SQLite.dll
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\bin\Debug\System.Data.SQLite.xml
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csprojResolveAssemblyReference.cache
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Form1.resources
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.Properties.Resources.resources
+Z:\C#\project 2\ChatAplication - 副本\ChatAplication\obj\Debug\ChatAplication.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+\\vmware-host\Shared Folders\C#\project 2\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
+Z:\C#\Chat-Like GUO-Xinyu LIU\ChatAplication\ChatAplication\bin\Debug\ChatAplication.exe.config
+Z:\C#\Chat-Like GUO-Xinyu LIU\ChatAplication\ChatAplication\obj\Debug\ChatAplication.exe
+Z:\C#\Chat-Like GUO-Xinyu LIU\ChatAplication\ChatAplication\obj\Debug\ChatAplication.pdb
