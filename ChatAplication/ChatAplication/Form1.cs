@@ -11,22 +11,49 @@ using System.Net.Sockets;
 using System.Threading;
 using System.IO;
 
+<<<<<<< HEAD
 //using Chat;
+=======
+<<<<<<< HEAD
+//using Chat;
+=======
+using ChatAplication.Authentificate;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
 namespace ChatAplication
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
         Authentificate.Authentificate.AuthentificationManager am;
         List<Server.ServerGestTopics> servers;
         List<Server.ServerChatRoom> chatroom;
         Server.TCPGestTopics topicManager;
+<<<<<<< HEAD
+=======
+=======
+        
+        AuthentificationManager am;
+        Server.ServerGestTopics server;
+        Server.ServerChatRoom chatroom;
+        Net.TCPServer tcp;
+        //Server.ServerChatRoom server_chatroom;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
         public Form1()
         {
             InitializeComponent();
             server_recv.HorizontalScrollbar = true;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             stop_bnt.Enabled = false;
 
             chatroom = new List<Server.ServerChatRoom>();
@@ -36,11 +63,25 @@ namespace ChatAplication
             topicManager.getTopicEvent += new Server.getTopicDel(listTopicToServer);
             addATopic("default");
             
+<<<<<<< HEAD
+=======
+=======
+           // server = new Server.ServerGestTopics();
+           
+            chatroom = new Server.ServerChatRoom("default");
+            
+           // btn_Stop.Enabled = false;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             Control.CheckForIllegalCrossThreadCalls = false;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         }
 
         //click start button
@@ -141,11 +182,62 @@ namespace ChatAplication
 
         public delegate void AddItemToListBoxDelegate(object sender, EventArgs e, string str);
         public void AddItemToListBox(object sender, EventArgs e, string str)
+<<<<<<< HEAD
+=======
+=======
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+            // myListener = new TcpListener(IPAddress.Parse(ServerIP), port);
+           // myListener.Start();
+            server = new Server.ServerGestTopics();
+            server.addTextEvent += new Net.addTextDel(AddItemToListBox);
+            server.startServer();
+           // AddItemToListBox(string.Format("开始在{0}:{1}监听客户连接", server.getIP(), server.getPort().ToString()));
+            
+            //创建一个线程监客户端连接请求
+          //  Thread myThread = new Thread(ListenClientConnect);
+         //   myThread.Start();
+            start_btn.Enabled = false;
+           // btn_Stop.Enabled = true;
+        }
+
+       /* public void authentifyUser(string login,string pass)
+        {
+            Authentificate.Authentificate.AuthentificationManager am = new Authentificate.Authentificate.Authentification(); ;
+            if (am.authentify(login,pass)) AddItemToListBox(login + " is authentified!");
+            else AddItemToListBox(login + " authentify fail!");
+        }*/
+
+        public delegate void AddItemToListBoxDelegate(object sender, EventArgs e, string str);
+        
+        /// <summary>
+        /// 在ListBox中追加状态信息
+        /// </summary>
+        /// <param name="str">要追加的信息</param>
+
+       
+
+
+        public void AddItemToListBox(object sender,EventArgs e, string str)
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         {
             if (server_recv.InvokeRequired)
             {
                 AddItemToListBoxDelegate d = AddItemToListBox;
+<<<<<<< HEAD
                 server_recv.Invoke(d, new object[] { sender,e, str });
+=======
+<<<<<<< HEAD
+                server_recv.Invoke(d, new object[] { sender,e, str });
+=======
+                server_recv.Invoke(d, str);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             }
             else
             {
@@ -156,6 +248,10 @@ namespace ChatAplication
         }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         public void showMsgBox(object sender, EventArgs e, string msg)
         {
             MessageBox.Show(msg);
@@ -189,6 +285,14 @@ namespace ChatAplication
         private void button2_Click(object sender, EventArgs e)
         {
 
+<<<<<<< HEAD
+=======
+=======
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         }
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -198,6 +302,10 @@ namespace ChatAplication
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
            // topicManager.createTopic(add_text.Text);
             addATopic(add_text.Text);
             add_text.Text = "";
@@ -239,5 +347,15 @@ namespace ChatAplication
     }
 
 
+<<<<<<< HEAD
+=======
+=======
+
+        }
+}
+
+       
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 }
 

@@ -30,10 +30,22 @@
         {
             this.start_btn = new System.Windows.Forms.Button();
             this.server_recv = new System.Windows.Forms.ListBox();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             this.add_topic_btn = new System.Windows.Forms.Button();
             this.stop_bnt = new System.Windows.Forms.Button();
             this.server_topicList = new System.Windows.Forms.ListView();
             this.add_text = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+=======
+=======
+            this.server_topicList = new System.Windows.Forms.ListBox();
+            this.add_topic_btn = new System.Windows.Forms.Button();
+            this.stop_bnt = new System.Windows.Forms.Button();
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             this.SuspendLayout();
             // 
             // start_btn
@@ -52,6 +64,10 @@
             this.server_recv.ItemHeight = 12;
             this.server_recv.Location = new System.Drawing.Point(13, 30);
             this.server_recv.Name = "server_recv";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             this.server_recv.Size = new System.Drawing.Size(233, 148);
             this.server_recv.TabIndex = 5;
             this.server_recv.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
@@ -59,6 +75,27 @@
             // add_topic_btn
             // 
             this.add_topic_btn.Location = new System.Drawing.Point(252, 2);
+<<<<<<< HEAD
+=======
+=======
+            this.server_recv.Size = new System.Drawing.Size(259, 148);
+            this.server_recv.TabIndex = 5;
+            this.server_recv.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
+            // 
+            // server_topicList
+            // 
+            this.server_topicList.FormattingEnabled = true;
+            this.server_topicList.ItemHeight = 12;
+            this.server_topicList.Location = new System.Drawing.Point(293, 30);
+            this.server_topicList.Name = "server_topicList";
+            this.server_topicList.Size = new System.Drawing.Size(120, 148);
+            this.server_topicList.TabIndex = 6;
+            // 
+            // add_topic_btn
+            // 
+            this.add_topic_btn.Location = new System.Drawing.Point(293, 1);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             this.add_topic_btn.Name = "add_topic_btn";
             this.add_topic_btn.Size = new System.Drawing.Size(75, 23);
             this.add_topic_btn.TabIndex = 7;
@@ -75,6 +112,10 @@
             this.stop_bnt.Text = "stop";
             this.stop_bnt.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             // server_topicList
             // 
             this.server_topicList.Location = new System.Drawing.Point(252, 30);
@@ -98,12 +139,30 @@
             this.Controls.Add(this.server_topicList);
             this.Controls.Add(this.stop_bnt);
             this.Controls.Add(this.add_topic_btn);
+<<<<<<< HEAD
+=======
+=======
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(445, 190);
+            this.Controls.Add(this.stop_bnt);
+            this.Controls.Add(this.add_topic_btn);
+            this.Controls.Add(this.server_topicList);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             this.Controls.Add(this.server_recv);
             this.Controls.Add(this.start_btn);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+<<<<<<< HEAD
             this.PerformLayout();
+=======
+<<<<<<< HEAD
+            this.PerformLayout();
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
         }
 
@@ -115,10 +174,22 @@
         private System.Windows.Forms.Button start_button;
         private System.Windows.Forms.Button start_btn;
         private System.Windows.Forms.ListBox server_recv;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         private System.Windows.Forms.Button add_topic_btn;
         private System.Windows.Forms.Button stop_bnt;
         private System.Windows.Forms.ListView server_topicList;
         private System.Windows.Forms.TextBox add_text;
+<<<<<<< HEAD
+=======
+=======
+        private System.Windows.Forms.ListBox server_topicList;
+        private System.Windows.Forms.Button add_topic_btn;
+        private System.Windows.Forms.Button stop_bnt;
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     }
 }
 

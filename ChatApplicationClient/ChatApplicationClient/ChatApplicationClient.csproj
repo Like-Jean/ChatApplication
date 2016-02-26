@@ -32,9 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="Message">
       <HintPath>.\Message.dll</HintPath>
     </Reference>
+=======
+<<<<<<< HEAD
+    <Reference Include="Message">
+      <HintPath>.\Message.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,12 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     <Compile Include="base_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="base_form.Designer.cs">
       <DependentUpon>base_form.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     <Compile Include="Chat.cs" />
     <Compile Include="ClientGestTopics.cs" />
     <Compile Include="chat_form.cs">
@@ -61,7 +79,14 @@
     <Compile Include="chat_form.Designer.cs">
       <DependentUpon>chat_form.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="HideOnStartupApplicationContext.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="HideOnStartupApplicationContext.cs" />
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     <Compile Include="login_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,9 +103,18 @@
       <DependentUpon>regist.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="base_form.resx">
       <DependentUpon>base_form.cs</DependentUpon>
     </EmbeddedResource>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="base_form.resx">
+      <DependentUpon>base_form.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     <EmbeddedResource Include="chat_form.resx">
       <DependentUpon>chat_form.cs</DependentUpon>
     </EmbeddedResource>

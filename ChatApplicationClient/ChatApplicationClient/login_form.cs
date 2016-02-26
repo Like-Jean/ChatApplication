@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 public delegate void login_sendMessageDel(object sender, EventArgs e, Message.Message msg);
 namespace ChatApplicationClient
 {
@@ -26,21 +30,59 @@ namespace ChatApplicationClient
         {
             InitializeComponent();
             this.Show();
+<<<<<<< HEAD
+=======
+=======
+namespace ChatApplicationClient
+{
+    public partial class login_form : Form
+    {
+
+        public chat_form form1;
+        private regist regist_form;
+
+        public login_form()
+        {
+            InitializeComponent();
+            form1 = new chat_form();
+            form1.client.addTextEvent += new Net.addTextDel(showMsgBox);
+            form1.client.loginToSysEvent += new Net.loginToSysDel(loginToSys);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         }
 
         private void label1_Click(object sender, EventArgs e) {}
 
         private void regist_btn_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             EventArgs myEvent = new EventArgs();
             Message.Message msg = new Message.Message("0", name_txt.Text);
             sendMsg(myEvent, msg);
             msg = new Message.Message("1", password_txt.Text);
             sendMsg(myEvent, msg);
+<<<<<<< HEAD
+=======
+=======
+            regist_form = new regist();
+            regist_form.Visible = true;
+            //Net.Message msg = new Net.Message("0", name_txt.Text);
+            //regist_form.client.sendMessage(msg);
+            //msg = new Net.Message("1", password_txt.Text);
+            //regist_form.client.sendMessage(msg);
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         }
 
         private void login_btn_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             EventArgs myEvent = new EventArgs();
             Message.Message msg = new Message.Message("2", name_txt.Text);
             sendMsg(myEvent, msg);
@@ -48,10 +90,24 @@ namespace ChatApplicationClient
             sendMsg(myEvent, msg);
         }
 
+<<<<<<< HEAD
+=======
+=======
+            Net.Message msg = new Net.Message("2", name_txt.Text);
+            form1.client.sendMessage(msg);
+            msg = new Net.Message("3", password_txt.Text);
+            form1.client.sendMessage(msg);
+        }
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
         public void showMsgBox(object sender,EventArgs e,string msg)
         {
             MessageBox.Show(msg);
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
         private delegate void closeFormDel();
         public void closeForm()
@@ -67,5 +123,15 @@ namespace ChatApplicationClient
             }
         }
       
+<<<<<<< HEAD
+=======
+=======
+        public void loginToSys(object sender, EventArgs e)
+        {
+            form1.Visible = true;
+            form1.startConnect();
+        }
+>>>>>>> 6b058e11aa29a6d6a129e2630e7899d0ae2a8fc3
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
     }
 }

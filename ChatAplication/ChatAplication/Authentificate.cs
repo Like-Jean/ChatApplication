@@ -6,7 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+<<<<<<< HEAD
 using System.Data.SQLite;
+=======
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
 //to manage the user(name,passwor,states..) like a database manager
 namespace Authentificate
@@ -25,22 +28,38 @@ namespace Authentificate
         public class Authentification : AuthentificationManager
         {
             public static List<ChatAplication.user> loginUser;//save the user of this system
+<<<<<<< HEAD
             private UserModel um = new UserModel();
             public Authentification()
             {
                 loginUser = new List<ChatAplication.user>();
                 um.createTable();
+=======
+            public Authentification()
+            {
+                loginUser = new List<ChatAplication.user>();
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
             }
 
             public bool addUser(String login, String password)
             {
                 ChatAplication.user _user = new ChatAplication.user(login, password);
+<<<<<<< HEAD
                 
                 //if the userName has already registed,return false
                 
                 if (!um.find(login))
                 {
                     um.insertIntoDatabase(login,password);
+=======
+                ChatAplication.user curU = loginUser.Find(delegate(ChatAplication.user user)//if the userName has already registed,return false
+                {
+                    return user.loginName.Equals(login);
+                });
+                if (curU == null)
+                {
+                    loginUser.Add(_user);
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
                     return true;
                 }
                 else return false;
@@ -49,12 +68,23 @@ namespace Authentificate
 
             public void removeUser(String login)
             {
+<<<<<<< HEAD
                 um.deleteFromDatabase(login);
+=======
+                int curN = loginUser.FindIndex(delegate(ChatAplication.user user)
+                    {
+
+                        return user.loginName.Equals(login);
+                    });
+
+                if (curN >= 0) loginUser.RemoveAt(curN);
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
 
             }
 
             public bool authentify(String login, String password)
             {
+<<<<<<< HEAD
                 if(um.find(login))
                 {
                     String correctPassword = um.readPasswordFromDatabase(login);
@@ -66,6 +96,14 @@ namespace Authentificate
                     else return false;
                 }
                 
+=======
+                ChatAplication.user curU;
+                curU = loginUser.Find(delegate(ChatAplication.user user)//if the user has already login,return false
+                {
+                    return user.loginName.Equals(login);
+                });
+                if (curU != null) { return true; }
+>>>>>>> e3a5133b9bac634b9919edc1ccf1a605f8ea649a
                 else return false;
             }
 
